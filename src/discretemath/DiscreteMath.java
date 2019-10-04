@@ -12,9 +12,19 @@ public class DiscreteMath {
                 }
                 return 1;
             }
+
+            @Override
+            public boolean hasNext() {
+                return true;
+            }
             
         };
-        Serie serie = new Serie(fibonachi);
+        
+        Serie serie = new Serie(fibonachi, 10);
+        System.out.println("Fibonachi");
+        for (Integer n : serie) {
+            System.out.println(n);
+        }
     }
     
 }
