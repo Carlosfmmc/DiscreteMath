@@ -33,7 +33,7 @@ class Serie implements Iterable<Integer>{
 
         @Override
         public boolean hasNext() {
-            return n != maxIteration && r.hasNext();
+            return  n != maxIteration && r.hasNext();
         }
 
         @Override
