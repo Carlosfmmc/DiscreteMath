@@ -2,6 +2,6 @@ package discretemath;
 
 interface RecursiveFunction {
     
-    public int getN();
+    public int getN(int n);
     
 }
